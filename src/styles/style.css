@@ -130,11 +130,108 @@ header {
 
 .main-banner-content-link {
   padding: 10px;
-  
+
   color: white;
   text-decoration: none;
 
   border: 1px solid white;
   border-radius: 10px;
   font-width: 700;
+}
+
+
+
+
+.advantages-block-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: #fff;
+}
+
+
+.advantages-block-content {
+  padding: 60px 0;
+  width: 1000px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.advantages-block-content section {
+  width: 30%;
+}
+
+section+section {
+  margin-left: 50px;
+}
+
+
+
+
+
+.about-block-container {
+  padding: 60px 0;
+  width: 100%;
+
+  background-color: #f7f7f7;
+
+  display: flex;
+  justify-content: center;
+}
+
+.about-block-content {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-block-article {
+  width: 45%;
+}
+
+.about-block-img-container {
+  width: 30%;
+}
+
+.about-block-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+
+.places-block-container {
+  padding: 60px 0;
+  width: 100%;
+
+  background-color: #fff;
+
+  display: flex;
+  justify-content: center;
+}
+
+.places-block-content {
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.places-block-article {
+  width: 45%;
+}
+
+.places-block-img-container {
+  width: 30%;
+
+  order: -1;
+}
+
+.places-block-img {
+  width: 100%;
 }
