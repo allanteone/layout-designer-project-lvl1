@@ -31,8 +31,6 @@ header {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  width: 100%;
-  height: 60px;
   margin: 0;
   padding: 5px 20px;
 
@@ -98,11 +96,33 @@ header {
   height: 60px;
 }
 
+.w-1000 {
+  width: 1000px;
+}
+
+.w-100p {
+  width: 100%;
+}
+
+.w-30p {
+  width: 30%;
+}
+
+.w-45p {
+  width: 45%;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
 .main-banner-container {
   display: flex;
   justify-content: center;
-  width: 100%;
-  padding: 60px 0;
 
   background-image: url(../img/banner.png);
   background-position: center;
@@ -113,7 +133,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1000px;
 
   color: #fff;
   font-weight: 700;
@@ -139,99 +158,46 @@ header {
   font-width: 700;
 }
 
-
-
-
 .advantages-block-container {
-  width: 100%;
-
   display: flex;
   justify-content: center;
 
   background-color: #fff;
 }
 
-
 .advantages-block-content {
-  padding: 60px 0;
-  width: 1000px;
-
   display: flex;
   justify-content: center;
 }
 
-.advantages-block-content section {
-  width: 30%;
-}
-
-section+section {
+section + section {
   margin-left: 50px;
 }
 
-
-
-
-
 .about-block-container {
-  padding: 60px 0;
-  width: 100%;
-
-  background-color: #f7f7f7;
-
   display: flex;
   justify-content: center;
+
+  background-color: #f7f7f7;
 }
 
 .about-block-content {
-  width: 1000px;
   display: flex;
   justify-content: space-around;
 }
 
-.about-block-article {
-  width: 45%;
-}
-
-.about-block-img-container {
-  width: 30%;
-}
-
-.about-block-img {
-  width: 100%;
-  object-fit: cover;
-}
-
-
-
-
-
-
 .places-block-container {
-  padding: 60px 0;
-  width: 100%;
-
-  background-color: #fff;
-
   display: flex;
   justify-content: center;
+
+  background-color: #fff;
 }
 
 .places-block-content {
-  width: 1000px;
   display: flex;
   justify-content: space-around;
 }
 
-.places-block-article {
-  width: 45%;
-}
-
 .places-block-img-container {
-  width: 30%;
-
   order: -1;
-}
-
-.places-block-img {
-  width: 100%;
 }
