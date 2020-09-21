@@ -88,6 +88,10 @@ header {
   margin-bottom: 10px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .mt-10 {
   margin-top: 10px;
 }
@@ -148,14 +152,8 @@ header {
 }
 
 .main-banner-content-link {
-  padding: 15px;
-
   color: white;
-  font-weight: 700;
-  text-decoration: none;
-
   border: 1px solid white;
-  border-radius: 10px;
 }
 
 .advantages-block-container {
@@ -209,9 +207,6 @@ section + section {
 
 
 .form-block-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  width: 100%;
   background-color: #f7f7f7;
 
   display: flex;
@@ -219,24 +214,13 @@ section + section {
 }
 
 .form-block-content {
-  width: 1000px;
-
   display: flex;
   justify-content: center;
 }
 
-.form-block {
-  width: 50%;
 
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.form-block-parameters {
+.form-block-field {
   border-radius: 4px;
-  width: 100%;
 
   display: flex;
   flex-direction: column;
@@ -248,11 +232,18 @@ section + section {
   box-sizing: border-box;
 
   border: green solid 3px;
-
-  margin-bottom: 20px;
-
-
 }
+
+
+.form-block {
+  width: 50%;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 legend {
   font-weight: 700;
@@ -265,93 +256,52 @@ span {
 
 }
 
-.form-block-parameters-rooms {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  margin-bottom: 20px;
-}
 
 
-select {
-  height: 30px;
-  width: 50%;
-
-  border-radius: 10px;
-  border-color: silver;
-
-  text-indent: 10px;
-
-
-  border-width: 1px;
-}
-
-.form-block-parameters-facing {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-
-
-
-.form-block-userdata {
-  border-radius: 4px;
-  width: 100%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  padding: 30px;
-
-  box-sizing: border-box;
-
-  border: green solid 3px;
-  margin-bottom: 20px;
-
-}
-
-.form-block-userdata-name,
-.form-block-userdata-phone,
-.form-block-userdata-email {
+.form-block-field-parameters {
   display: flex;
   justify-content: space-between;
 }
 
-.form-block-userdata-name,
-.form-block-userdata-phone {
-  margin-bottom: 20px;
-}
 
-input {
+
+
+
+
+
+
+.input-field {
   height: 25px;
   width: 50%;
 
   border-radius: 10px;
   border-color: silver;
-
+  text-indent: 10px;
 
   border-width: 1px;
 }
 
+select.input-field {
+  height: 30px;
+}
+
 
 .button-container {
-  width: 100%;
   display: flex;
 }
 
-button {
-  padding: 15px;
 
-  color: green;
+.clickable {
+  padding: 10px;
+
   font-weight: 700;
   text-decoration: none;
 
-  border: 1px solid green;
   border-radius: 10px;
+}
 
+
+button {
+  color: green;
+  border: 1px solid green;
 }
