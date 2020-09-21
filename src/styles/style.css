@@ -232,6 +232,7 @@ section + section {
   box-sizing: border-box;
 
   border: green solid 3px;
+
 }
 
 
@@ -261,6 +262,7 @@ span {
 .form-block-field-parameters {
   display: flex;
   justify-content: space-between;
+
 }
 
 
@@ -275,10 +277,11 @@ span {
   width: 50%;
 
   border-radius: 10px;
-  border-color: silver;
   text-indent: 10px;
 
-  border-width: 1px;
+  box-shadow: none;
+
+  border: silver 1px solid;
 }
 
 select.input-field {
