@@ -148,14 +148,14 @@ header {
 }
 
 .main-banner-content-link {
-  padding: 10px;
+  padding: 15px;
 
   color: white;
+  font-weight: 700;
   text-decoration: none;
 
   border: 1px solid white;
   border-radius: 10px;
-  font-width: 700;
 }
 
 .advantages-block-container {
@@ -200,4 +200,158 @@ section + section {
 
 .places-block-img-container {
   order: -1;
+}
+
+
+
+
+
+
+
+.form-block-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+  background-color: #f7f7f7;
+
+  display: flex;
+  justify-content: center;
+}
+
+.form-block-content {
+  width: 1000px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.form-block {
+  width: 50%;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-block-parameters {
+  border-radius: 4px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+
+  box-sizing: border-box;
+
+  border: green solid 3px;
+
+  margin-bottom: 20px;
+
+
+}
+
+legend {
+  font-weight: 700;
+  color: green;
+}
+
+span {
+  display: inline-block;
+  font-weight: 700;
+
+}
+
+.form-block-parameters-rooms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+
+select {
+  height: 30px;
+  width: 50%;
+
+  border-radius: 10px;
+  border-color: silver;
+
+  text-indent: 10px;
+
+
+  border-width: 1px;
+}
+
+.form-block-parameters-facing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+
+.form-block-userdata {
+  border-radius: 4px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+
+  box-sizing: border-box;
+
+  border: green solid 3px;
+  margin-bottom: 20px;
+
+}
+
+.form-block-userdata-name,
+.form-block-userdata-phone,
+.form-block-userdata-email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-block-userdata-name,
+.form-block-userdata-phone {
+  margin-bottom: 20px;
+}
+
+input {
+  height: 25px;
+  width: 50%;
+
+  border-radius: 10px;
+  border-color: silver;
+
+
+  border-width: 1px;
+}
+
+
+.button-container {
+  width: 100%;
+  display: flex;
+}
+
+button {
+  padding: 15px;
+
+  color: green;
+  font-weight: 700;
+  text-decoration: none;
+
+  border: 1px solid green;
+  border-radius: 10px;
+
 }
