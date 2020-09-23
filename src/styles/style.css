@@ -231,7 +231,7 @@ section + section {
 
   box-sizing: border-box;
 
-  border: green solid 3px;
+  border: #8ce6d2 solid 3px;
 
 }
 
@@ -248,7 +248,7 @@ section + section {
 
 legend {
   font-weight: 700;
-  color: green;
+  color: #8ce6d2;
 }
 
 span {
@@ -305,6 +305,6 @@ select.input-field {
 
 
 button {
-  color: green;
-  border: 1px solid green;
+  color: #8ce6d2;
+  border: 1px solid #8ce6d2;
 }
