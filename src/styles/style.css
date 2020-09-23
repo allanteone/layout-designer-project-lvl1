@@ -55,7 +55,7 @@ header {
 }
 
 .header-logo-img {
-  height: 75%;
+  height: 40px;
 }
 
 .header-logo-title {
@@ -307,4 +307,59 @@ select.input-field {
 button {
   color: #8ce6d2;
   border: 1px solid #8ce6d2;
+}
+
+
+
+
+
+
+
+
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #303846;
+  color: #f7f7f7;
+
+}
+
+.footer-logo-container {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-logo-frame {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 160px;
+
+
+}
+
+.footer-logo-frame h2 {
+  display: block;
+  margin: 0;
+}
+
+footer h2 {
+  font-size: 1em;
+}
+
+footer li {
+  font-weight: 700;
+}
+
+
+.footer-logo-img {
+  height: 40px;
+  display: inline-block;
 }
