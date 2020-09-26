@@ -24,6 +24,8 @@ a {
 
 .main-header {
   position: fixed;
+  left: 0;
+  top: 0;
 
   display: flex;
   justify-content: space-between;
