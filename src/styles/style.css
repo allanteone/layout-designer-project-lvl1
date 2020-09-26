@@ -22,7 +22,7 @@ a {
   color: black;
 }
 
-header {
+.main-header {
   position: fixed;
 
   display: flex;
@@ -308,7 +308,7 @@ button {
   border: 1px solid #8ce6d2;
 }
 
-footer {
+.main-footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
