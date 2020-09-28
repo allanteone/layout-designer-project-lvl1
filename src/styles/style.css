@@ -23,37 +23,28 @@ a {
 }
 
 .main-header {
-  position: fixed;
-  left: 0;
-  top: 0;
-
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  padding: 5px 20px;
 
   background-color: #fff;
 }
 
+.header-fixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
 .header-logo {
   display: flex;
-  flex: 0 0 200px;
+  flex: 0 2 200px;
   align-items: center;
   justify-content: flex-start;
-
-  width: 20%;
-  height: 100%;
 }
 
 .header-menu {
-  flex: 0 0 550px;
-
-  width: 80%;
-  height: 100%;
-}
-
-.header-logo-img {
-  height: 40px;
+  flex: 0 8 800px;
 }
 
 .header-logo-title {
@@ -66,7 +57,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-
+  align-items: center;
   list-style: none;
 }
 
@@ -106,6 +97,10 @@ a {
   margin-bottom: 10px;
 }
 
+.mb-5 {
+  margin-bottom: 5px;
+}
+
 .mb-20 {
   margin-bottom: 20px;
 }
@@ -118,12 +113,28 @@ a {
   height: 60px;
 }
 
+.h-40 {
+  height: 40px;
+}
+
+.h-100p {
+  height: 100%;
+}
+
 .w-1000 {
   width: 1000px;
 }
 
 .w-100p {
   width: 100%;
+}
+
+.w-80p {
+  width: 80%;
+}
+
+.w-20p {
+  width: 20%;
 }
 
 .w-30p {
@@ -134,12 +145,36 @@ a {
   width: 45%;
 }
 
+.w-50p {
+  width: 50%;
+}
+
 .pt-60 {
   padding-top: 60px;
 }
 
+.pt-5 {
+  padding-top: 5px;
+}
+
 .pb-60 {
   padding-bottom: 60px;
+}
+
+.pb-5 {
+  padding-bottom: 5px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.p-30 {
+  padding: 30px;
 }
 
 .p-0 {
@@ -150,7 +185,9 @@ a {
 .main-banner-container {
   display: flex;
   justify-content: center;
+}
 
+.bg-space {
   background-image: url(../img/banner.png);
   background-position: center;
   background-size: cover;
@@ -170,14 +207,10 @@ a {
   min-width: 150px;
 }
 
-.main-banner-content-title {
-  margin-bottom: 5px;
-}
-
 .main-banner-content-link {
   color: white;
 
-  border: 1px solid white;
+  border-color: white;
 }
 
 .advantages-block-container {
@@ -238,7 +271,6 @@ section + section {
 
 .form-block-field {
   box-sizing: border-box;
-  padding: 30px;
 
   border: #8ce6d2 solid 3px;
   border-radius: 4px;
@@ -248,8 +280,6 @@ section + section {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  width: 50%;
 }
 
 legend {
@@ -270,7 +300,6 @@ span {
 }
 
 .input-field {
-  width: 50%;
   height: 25px;
 
   text-indent: 10px;
@@ -284,13 +313,14 @@ span {
 
 select.input-field {
   height: 30px;
+  background-color: #fff;
 }
 
 .button-container {
   display: flex;
 }
 
-.clickable {
+.btn {
   background-color: transparent;
   padding: 10px;
 
@@ -298,12 +328,13 @@ select.input-field {
   text-decoration: none;
 
   border-radius: 10px;
+  border: 1px solid;
 }
 
-button {
+.form-btn {
   color: #8ce6d2;
 
-  border: 1px solid #8ce6d2;
+  border-color: #8ce6d2;
 }
 
 .main-footer {
@@ -320,8 +351,6 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  height: 100%;
 }
 
 .footer-logo-frame {
@@ -342,5 +371,4 @@ footer li {
 
 .footer-logo-img {
   display: inline-block;
-  height: 40px;
 }

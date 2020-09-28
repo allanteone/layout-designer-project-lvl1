@@ -11,13 +11,13 @@
 <body class="m-0 p-0">
 
 
-<header class="main-header w-100p h-60 m-0">
+<header class="main-header header-fixed w-100p h-60 m-0 pt-5 pb-5 pl-20 pr-20">
     <div class="header-logo">
-        <img src="img/logo.svg" class="header-logo-img" alt="Логотип ЖК «Лунное море»" title="ЖК «Лунное море»">
+        <img src="img/logo.svg" class="h-40" alt="Логотип ЖК «Лунное море»" title="ЖК «Лунное море»">
         <span class="header-logo-title ml-10">Лунное море</span>
     </div>
     <nav class="header-menu">
-        <ul class="header-menu-list">
+        <ul class="header-menu-list h-100p m-0 p-0">
             <li class="mr-10 ml-10"><a href="#advantages">Преимущества</a></li>
             <li class="mr-10 ml-10"><a href="#about">О ЖК «Лунное море»</a></li>
             <li class="mr-10 ml-10"><a href="#places">Места для отдыха</a></li>
@@ -27,17 +27,17 @@
 <div class="h-60"></div>
 
 <main>
-    <div class="main-banner-container alt pt-60 pb-60 w-100p" title="Вид на Землю">
+    <div class="main-banner-container bg-space pt-60 pb-60" title="Вид на Землю">
         <div class="main-banner-content w-1000">
             <img class="main-banner-content-logo mb-10" src="img/logo.svg" alt="Логотип ЖК «Лунное море»" title="ЖК «Лунное море»">
             <h1 class="mb-0 mt-0">ЖК «Лунное море»</h1>
-            <span class="main-banner-content-title">Место, откуда не хочется улетать</span>
-            <a class="main-banner-content-link clickable mb-10 mt-10" href="#registration">Забронировать</a>
+            <span class="mb-5">Место, откуда не хочется улетать</span>
+            <a class="btn main-banner-content-link mb-10 mt-10" href="#registration">Забронировать</a>
         </div>
     </div>
 
     <div class="advantages-block-container pt-60 pb-60 w-100p">
-        <a name="advantages"></a>
+        <a id="advantages"></a>
         <div class="advantages-block-content w-1000">
             <section class="w-30p">
                 <h2>Уникальный вид</h2>
@@ -58,13 +58,13 @@
     </div>
 
     <div class="about-block-container pt-60 pb-60 w-100p">
-        <a name="about"></a>
+        <a id="about"></a>
         <section class="about-block-content w-1000">
-            <article class="about-block-article w-45p">
+            <div class="about-block-article w-45p">
                 <h2>О ЖК «Лунное море»</h2>
                 <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
                 <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
-            </article>
+            </div>
             <div class="about-block-img-container w-30p">
                 <img src="img/moon-1.jpg" class="w-100p" alt="Луна" title="ЖК «Лунное море»">
             </div>
@@ -72,13 +72,13 @@
     </div>
 
     <div class="places-block-container pt-60 pb-60 w-100p">
-        <a name="places"></a>
+        <a id="places"></a>
         <section class="places-block-content w-1000">
-            <article class="places-block-article w-45p">
+            <div class="places-block-article w-45p">
                 <h2>Места для отдыха</h2>
                 <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
                 <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
-            </article>
+            </div>
             <div class="places-block-img-container w-30p">
                 <img src="img/moon-2.jpg" class="w-100p" alt="Космонавт на Луне" title="ЖК «Лунное море»">
             </div>
@@ -88,15 +88,15 @@
 
     <div class="form-block-container pt-60 pb-60 w-100p">
         <div class="form-block-content w-1000">
-            <form class="form-block">
+            <form class="form-block w-50p">
                 <h2>Оставьте заявку сегодня!</h2>
 
-                <fieldset class="form-block-field w-100p mb-20">
+                <fieldset class="form-block-field w-100p mb-20 p-30">
                     <legend>Параметры квартиры</legend>
-                    <a name="registration"></a>
+                    <a id="registration"></a>
                     <div class="form-block-field-parameters mb-20 w-100p">
                         <span>Количество комнат:</span>
-                        <select class="input-field">
+                        <select class="input-field w-50p">
                             <option>1</option>
                             <option>2</option>
                             <option>3</option>
@@ -104,7 +104,7 @@
                     </div>
                     <div class="form-block-field-parameters w-100p">
                         <span>Отделка:</span>
-                        <select class="input-field">
+                        <select class="input-field w-50p">
                             <option>Без отделки</option>
                             <option>Эконом-класс</option>
                             <option>Люкс-класс</option>
@@ -112,24 +112,24 @@
                     </div>
                 </fieldset>
 
-                <fieldset class="form-block-field w-100p mb-20">
+                <fieldset class="form-block-field w-100p mb-20 p-30">
                     <legend>Контактная информация</legend>
                     <div class="form-block-field-parameters mb-20">
                         <span>Имя:</span>
-                        <input class="input-field" type="text">
+                        <input class="input-field w-50p" type="text">
                     </div>
                     <div class="form-block-field-parameters mb-20">
                         <span>Телефон:</span>
-                        <input class="input-field" type="text">
+                        <input class="input-field w-50p" type="text">
                     </div>
                     <div class="form-block-field-parameters">
                         <span>E-mail:</span>
-                        <input class="input-field" type="text">
+                        <input class="input-field w-50p" type="text">
                     </div>
                 </fieldset>
 
                 <div class="button-container w-100p">
-                    <button class="clickable">Отправить</button>
+                    <button class="btn form-btn">Отправить</button>
                 </div>
             </form>
         </div>
@@ -140,7 +140,7 @@
 <footer class="main-footer w-100p pb-60 pt-60">
     <aside class="footer-logo-container">
         <div class="footer-logo-frame mb-20">
-            <img src="img/logo.svg" class="footer-logo-img" alt="Логотип ЖК «Лунное море»" title="ЖК «Лунное море»">
+            <img src="img/logo.svg" class="footer-logo-img h-40" alt="Логотип ЖК «Лунное море»" title="ЖК «Лунное море»">
             <h2 class="m-0">Лунное море</h2>
         </div>
 
