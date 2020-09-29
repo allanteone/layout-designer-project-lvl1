@@ -212,11 +212,7 @@ a {
 
 .advantages-block-content {
   display: flex;
-  justify-content: center;
-}
-
-section + section {
-  margin-left: 50px;
+  justify-content: space-between;
 }
 
 .about-block-container {
@@ -301,6 +297,7 @@ span {
 
 select.input-field {
   height: 30px;
+
   background-color: #fff;
 }
 
