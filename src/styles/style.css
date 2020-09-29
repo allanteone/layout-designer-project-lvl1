@@ -27,6 +27,8 @@ a {
   justify-content: space-between;
   box-sizing: border-box;
 
+  padding: 5px 20px;
+
   background-color: #fff;
 }
 
