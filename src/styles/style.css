@@ -172,11 +172,6 @@ a {
   padding: 0;
 }
 
-.main-banner-container {
-  display: flex;
-  justify-content: center;
-}
-
 .bg-space {
   background-image: url(../img/banner.png);
   background-position: center;
@@ -203,10 +198,7 @@ a {
   border-color: white;
 }
 
-.advantages-block-container {
-  display: flex;
-  justify-content: center;
-
+.bg-white {
   background-color: #fff;
 }
 
@@ -215,23 +207,13 @@ a {
   justify-content: space-between;
 }
 
-.about-block-container {
-  display: flex;
-  justify-content: center;
-
+.bg-silver {
   background-color: #f7f7f7;
 }
 
 .about-block-content {
   display: flex;
   justify-content: space-around;
-}
-
-.places-block-container {
-  display: flex;
-  justify-content: center;
-
-  background-color: #fff;
 }
 
 .places-block-content {
@@ -241,13 +223,6 @@ a {
 
 .places-block-img-container {
   order: -1;
-}
-
-.form-block-container {
-  display: flex;
-  justify-content: center;
-
-  background-color: #f7f7f7;
 }
 
 .form-block-content {
@@ -320,6 +295,7 @@ select.input-field {
   color: #8ce6d2;
 
   border-color: #8ce6d2;
+  align-self: flex-start;
 }
 
 .main-footer {
@@ -356,4 +332,14 @@ footer li {
 
 .footer-logo-img {
   display: inline-block;
+}
+
+
+.container {
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  display: flex;
+  justify-content: center;
 }
