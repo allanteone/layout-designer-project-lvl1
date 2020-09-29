@@ -40,13 +40,8 @@ a {
 
 .header-logo {
   display: flex;
-  flex: 0 2 200px;
   align-items: center;
   justify-content: flex-start;
-}
-
-.header-menu {
-  flex: 0 8 800px;
 }
 
 .header-logo-title {
