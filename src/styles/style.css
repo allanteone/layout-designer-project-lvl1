@@ -44,10 +44,6 @@ a {
   justify-content: flex-start;
 }
 
-.header-logo-title {
-  font-weight: 700;
-}
-
 .header-menu-list {
   display: flex;
   flex-direction: row;
@@ -176,7 +172,6 @@ a {
   padding: 0;
 }
 
-
 .main-banner-container {
   display: flex;
   justify-content: center;
@@ -284,8 +279,6 @@ legend {
 }
 
 span {
-  display: inline-block;
-
   font-weight: 700;
 }
 
