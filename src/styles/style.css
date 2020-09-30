@@ -19,7 +19,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #303846;
 }
 
 .main-header {
@@ -28,8 +28,6 @@ a {
   box-sizing: border-box;
 
   padding: 5px 20px;
-
-  background-color: #fff;
 }
 
 .header-fixed {
@@ -50,10 +48,6 @@ a {
   justify-content: flex-end;
   align-items: center;
   list-style: none;
-}
-
-.header-menu-list li {
-  font-weight: 700;
 }
 
 .m-0 {
@@ -106,6 +100,14 @@ a {
 
 .h-40 {
   height: 40px;
+}
+
+.h-30 {
+  height: 30px;
+}
+
+.h-25 {
+  height: 25px;
 }
 
 .h-100p {
@@ -184,7 +186,6 @@ a {
   align-items: center;
 
   color: #fff;
-  font-weight: 700;
 }
 
 .main-banner-content-logo {
@@ -209,6 +210,10 @@ a {
 
 .bg-silver {
   background-color: #f7f7f7;
+}
+
+.bg-gray {
+  background-color: #303846;
 }
 
 .about-block-content {
@@ -245,12 +250,6 @@ a {
 
 legend {
   color: #8ce6d2;
-
-  font-weight: 700;
-}
-
-span {
-  font-weight: 700;
 }
 
 .form-block-field-parameters {
@@ -259,8 +258,6 @@ span {
 }
 
 .input-field {
-  height: 25px;
-
   text-indent: 10px;
 
   border: silver 1px solid;
@@ -270,21 +267,10 @@ span {
   box-shadow: none;
 }
 
-select.input-field {
-  height: 30px;
-
-  background-color: #fff;
-}
-
-.button-container {
-  display: flex;
-}
-
 .btn {
   background-color: transparent;
   padding: 10px;
 
-  font-weight: 700;
   text-decoration: none;
 
   border-radius: 10px;
@@ -304,8 +290,6 @@ select.input-field {
   justify-content: space-around;
 
   color: #f7f7f7;
-
-  background-color: #303846;
 }
 
 .footer-logo-container {
@@ -326,10 +310,6 @@ footer h2 {
   font-size: 1em;
 }
 
-footer li {
-  font-weight: 700;
-}
-
 .footer-logo-img {
   display: inline-block;
 }
@@ -342,4 +322,8 @@ footer li {
 
   display: flex;
   justify-content: center;
+}
+
+.fweight-700 {
+  font-weight: 700;
 }
