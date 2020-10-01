@@ -11,24 +11,24 @@
 <body class="m-0 p-0">
 
 
-<header class="main-header header-fixed w-100p h-60 m-0 bg-white">
-    <div class="header-logo">
+<header class="main-header header-fixed w-100p m-0 bg-white flex justify-between">
+    <div class="flex justify-start align-center">
         <img src="img/logo.svg" class="h-40" alt="Логотип ЖК «Лунное море»" title="ЖК «Лунное море»">
         <span class="ml-10 fweight-700">Лунное море</span>
     </div>
     <nav>
-        <ul class="header-menu-list h-100p m-0 p-0">
+        <ul class="header-menu-list flex flex-row justify-end align-center h-100p m-0 p-0">
             <li class="mr-10 ml-10 fweight-700"><a href="#advantages">Преимущества</a></li>
             <li class="mr-10 ml-10 fweight-700"><a href="#about">О ЖК «Лунное море»</a></li>
             <li class="mr-10 ml-10 fweight-700"><a href="#places">Места для отдыха</a></li>
         </ul>
     </nav>
 </header>
-<div class="h-60"></div>
+<div class="header-margin"></div>
 
 <main>
     <div class="container bg-space" title="Вид на Землю">
-        <div class="main-banner-content w-1000 fweight-700">
+        <div class="main-banner-content w-1000 fweight-700 flex flex-column align-center">
             <img class="main-banner-content-logo mb-10" src="img/logo.svg" alt="Логотип ЖК «Лунное море»" title="ЖК «Лунное море»">
             <h1 class="mb-0 mt-0">ЖК «Лунное море»</h1>
             <span class="mb-5 fweight-700">Место, откуда не хочется улетать</span>
@@ -38,7 +38,7 @@
 
     <div class="container bg-white">
         <a id="advantages"></a>
-        <div class="advantages-block-content w-1000">
+        <div class="w-1000 flex justify-between">
             <section class="w-30p">
                 <h2>Уникальный вид</h2>
                 <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться
@@ -59,7 +59,7 @@
 
     <div class="container bg-silver">
         <a id="about"></a>
-        <section class="about-block-content w-1000">
+        <section class="w-1000 flex justify-around">
             <div class="about-block-article w-45p">
                 <h2>О ЖК «Лунное море»</h2>
                 <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -73,7 +73,7 @@
 
     <div class="container bg-white">
         <a id="places"></a>
-        <section class="places-block-content w-1000">
+        <section class="w-1000 flex justify-around">
             <div class="places-block-article w-45p">
                 <h2>Места для отдыха</h2>
                 <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
@@ -87,14 +87,14 @@
     </div>
 
     <div class="container bg-silver">
-        <div class="form-block-content w-1000">
-            <form class="form-block w-50p">
+        <div class="w-1000 flex justify-center">
+            <form class="form-block w-50p flex flex-column align-center">
                 <h2>Оставьте заявку сегодня!</h2>
 
                 <fieldset class="form-block-field w-100p mb-20 p-30">
                     <legend class="fweight-700">Параметры квартиры</legend>
                     <a id="registration"></a>
-                    <div class="form-block-field-parameters mb-20 w-100p">
+                    <div class="mb-20 w-100p flex justify-between">
                         <span class="fweight-700">Количество комнат:</span>
                         <select class="input-field w-50p h-30 bg-white">
                             <option>1</option>
@@ -102,7 +102,7 @@
                             <option>3</option>
                         </select>
                     </div>
-                    <div class="form-block-field-parameters w-100p">
+                    <div class="w-100p flex justify-between">
                         <span class="fweight-700">Отделка:</span>
                         <select class="input-field w-50p h-30 bg-white">
                             <option>Без отделки</option>
@@ -114,52 +114,54 @@
 
                 <fieldset class="form-block-field w-100p mb-20 p-30">
                     <legend class="fweight-700">Контактная информация</legend>
-                    <div class="form-block-field-parameters mb-20">
+                    <div class="mb-20 flex justify-between">
                         <span class="fweight-700">Имя:</span>
                         <input class="input-field w-50p h-25" type="text">
                     </div>
-                    <div class="form-block-field-parameters mb-20">
+                    <div class="mb-20 flex justify-between">
                         <span class="fweight-700">Телефон:</span>
                         <input class="input-field w-50p h-25" type="text">
                     </div>
-                    <div class="form-block-field-parameters">
+                    <div class="flex justify-between">
                         <span class="fweight-700">E-mail:</span>
                         <input class="input-field w-50p h-25" type="text">
                     </div>
                 </fieldset>
 
-                <button class="btn form-btn fweight-700">Отправить</button>
+                <button class="btn btn-green fweight-700">Отправить</button>
             </form>
         </div>
     </div>
-
 </main>
 
-<footer class="main-footer w-100p pb-60 pt-60 bg-gray">
-    <aside class="footer-logo-container">
-        <div class="footer-logo-frame mb-20">
-            <img src="img/logo.svg" class="footer-logo-img h-40" alt="Логотип ЖК «Лунное море»" title="ЖК «Лунное море»">
-            <h2 class="m-0">Лунное море</h2>
-        </div>
+<footer class="main-footer container bg-gray flex ">
+    <div class="w-1000 flex justify-between">
+        <aside class="flex flex-column justify-center">
+            <div class="footer-logo-frame mb-20 flex align-center justify-between">
+                <img src="img/logo.svg" class="footer-logo-img h-40" alt="Логотип ЖК «Лунное море»" title="ЖК «Лунное море»">
+                <h2 class="m-0">Лунное море</h2>
+            </div>
 
-        <small>&#169; 2032 год</small>
-    </aside>
+            <small>&#169; 2032 год</small>
+        </aside>
 
-    <aside class="">
-        <h2>Проектная документация</h2>
-        <ul>
-            <li class="fweight-700">Скачать</li>
-            <li class="fweight-700">Посмотреть на сайте</li>
-        </ul>
-    </aside>
+        <aside class="">
+            <h2>Проектная документация</h2>
+            <ul>
+                <li class="fweight-700">Скачать</li>
+                <li class="fweight-700">Посмотреть на сайте</li>
+            </ul>
+        </aside>
 
-    <aside class="">
-        <h2>О застройщике</h2>
-        <ul>
-            <li class="fweight-700">Отзывы</li>
-            <li class="fweight-700">Сайт компании</li>
-        </ul>
-    </aside>
+        <aside class="">
+            <h2>О застройщике</h2>
+            <ul>
+                <li class="fweight-700">Отзывы</li>
+                <li class="fweight-700">Сайт компании</li>
+            </ul>
+        </aside>
+    </div>
+
 
 </footer>
 
